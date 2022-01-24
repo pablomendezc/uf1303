@@ -1,4 +1,4 @@
-*/marca de agua/
+/*marca de agua*/
 
 .agua:before {
   position: fixed;
@@ -8,7 +8,7 @@
   width: 30.02024vh;
   height: 20vh;
   opacity: 0.2;
-  background-image: url("../svg/logo.svg");
+  background-image: url("../svg/mp .svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat; }
