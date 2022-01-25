@@ -10,7 +10,11 @@ h1, h2, h3, h4, h5, h6, a, p, li, strong, em, figcaption, q, blockquote{
     html, body{
         font-size:16px
     }
-    
+
+    /*maquetación*/
+body main section{
+    padding: 5vw
+}
 /* estilo de texto
 h1 {font-size:0,8em;}
 h2 {font-size:2em;}
@@ -34,44 +38,35 @@ a, p, li, strong, em, figcaption, q, blockquote {
     font-size: 16px;
     color: black;
    }
+/*interlineado*/
+p {
+   line-height: 1.2; 
+}
+
 /*colores específicos*/
 h2,strong {
       color:navy;
 }
 a {
+    font-weight: bold;
     color:darkgrey;
+}
+figcaption {
+    font-size: small;
+    font-style: italic;
+}
+
+ /*Estilos para las notas*/
+
+p.nota{
+    padding: 1em;
+    background-color:lightblue;
+    border-left: 0,25em solid black;
+    border-radius: 5px;
 }
 
 
-    
  
-
-
-
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .agua:before {
   position: fixed;
