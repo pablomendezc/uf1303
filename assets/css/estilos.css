@@ -1,24 +1,51 @@
 /*estilos de los textos*/
+
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700;1,900&display=swap');
-
-h1, h2, h3, h4 {
-    font-family: 'Merriweather', serif;
-    color: dodgerblue;
-}
- h2, strong {
-    font-family: 'Merriweather', serif;
-    color: lime; 
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&family=Merriweather:ital,wght@0,400;1,700;1,900&display=swap');
-a, p, li {
-    font-family: 'Inconsolata', monospace;
-    color: grey;
-}
-h2, strong {
-    font-family: 'Merriweather', serif;
+/*tamaño de texto*/
+
+h1, h2, h3, h4, h5, h6, a, p, li, strong, em, figcaption, q, blockquote{
+    font-size:16px}
+        
+    html, body{
+        font-size:16px
+    }
+    
+/* estilo de texto
+h1 {font-size:0,8em;}
+h2 {font-size:2em;}
+h3 {font-size:1.8em;}
+h4 {font-size:1.6em;}
+h5 {font-size:1.5em;}
+h6 {font-size:1.1em;}
+*/
+    
+    /*familia y colores*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif, verdana;
     color: dodgerblue;
+    text-transform: capitalize
 }
+  
+a, p, li, strong, em, figcaption, q, blockquote {
+    font-family: 'Inconsolata', monospace, verdana;
+    color: grey;
+    font-size: 16px;
+    color: black;
+   }
+/*colores específicos*/
+h2,strong {
+      color:red;
+}
+a {
+    color:red;
+}
+
+
+    
+ 
+
 
 
        
