@@ -1,15 +1,57 @@
-<<<<<<< HEAD
-/* Marca de agua */
-=======
-/*marca de agua*/
->>>>>>> cbe5d4927c5e264303c0d2a01af687b5a470f205
+/*estilos de los textos*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700;1,900&display=swap');
+
+h1, h2, h3, h4 {
+    font-family: 'Merriweather', serif;
+    color: dodgerblue;
+}
+ h2, strong {
+    font-family: 'Merriweather', serif;
+    color: lime; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&family=Merriweather:ital,wght@0,400;1,700;1,900&display=swap');
+a, p, li {
+    font-family: 'Inconsolata', monospace;
+    color: grey;
+}
+h2, strong {
+    font-family: 'Merriweather', serif;
+    color: dodgerblue;
+}
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .agua:before {
   position: fixed;
   content: '';
   bottom: 2vh;
   right: 5vh;
-<<<<<<< HEAD
+
   width: 56.77vh;
   height: 20vh;
   opacity: 0.2;
@@ -44,7 +86,7 @@ header.portada h2 {
     background-color: rgba(0,0,0, 0.6);
     color: #ffffff;
 }
-=======
+
   width: 100%;
   height: 50vh;
   opacity: 0.2;
@@ -52,4 +94,4 @@ header.portada h2 {
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat; }
->>>>>>> cbe5d4927c5e264303c0d2a01af687b5a470f205
+
