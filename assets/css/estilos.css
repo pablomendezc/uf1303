@@ -56,6 +56,7 @@ figcaption {
     font-style: italic;
 }
 
+
  /*Estilos para las notas*/
 
 p.nota{
@@ -65,8 +66,19 @@ p.nota{
     border-radius: 5px;
 }
 
+ footer. class,li, h2 {
+    padding: 1em;
+    background-color:black;
+    font-family: 'Inconsolata', monospace, verdana;
+    color: white;
+    font-size: 16px;
+    
+    
+}
 
- 
+
+
+
 
 .agua:before {
   position: fixed;
@@ -116,4 +128,25 @@ header.portada h2 {
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat; }
+
+/*reglas comunes */
+figure.w3c.css{
+    background-image: url("../svg/w3c/css.svg");
+    }
+
+
+
+
+figure.w3c {
+width: 88px
+height: 31px
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat; }
+     
+     
+     
+}
+
+
 
