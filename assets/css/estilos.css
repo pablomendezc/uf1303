@@ -12,8 +12,8 @@ h1, h2, h3, h4, h5, h6, a, p, li, strong, em, figcaption, q, blockquote{
     }
 
     /*maquetación*/
-body main section{
-    padding: 5vw
+body, main, section{
+    padding: 3vw
 }
 /* estilo de texto
 h1 {font-size:0,8em;}
@@ -48,7 +48,7 @@ h2,strong {
       color:navy;
 }
 a {
-    font-weight: bold;
+    font-weight: normal;
     color:darkgrey;
 }
 figcaption {
