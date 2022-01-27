@@ -4,17 +4,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&family=Merriweather:ital,wght@0,400;1,700;1,900&display=swap');
 /*tamaño de texto*/
 
-h1, h2, h3, h4, h5, h6, a, p, li, strong, em, figcaption, q, blockquote{
-    font-size:16px}
-        
-    html, body{
-        font-size:16px
-    }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+li,
+strong,
+em,
+figcaption,
+q,
+blockquote {
+    font-size: 16px
+}
 
-    /*maquetación*/
-body, main, section{
+html,
+body {
+    font-size: 16px
+}
+
+/*maquetación*/
+body,
+main,
+section {
     padding: 3vw
 }
+
 /* estilo de texto
 h1 {font-size:0,8em;}
 h2 {font-size:2em;}
@@ -23,64 +41,81 @@ h4 {font-size:1.6em;}
 h5 {font-size:1.5em;}
 h6 {font-size:1.1em;}
 */
-    
-    /*familia y colores*/
 
-h1, h2, h3, h4, h5, h6 {
+/*familia y colores*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Merriweather', serif, verdana;
     color: dodgerblue;
     text-transform: capitalize
 }
-  
-a, p, li, strong, em, figcaption, q, blockquote {
+
+a,
+p,
+li,
+strong,
+em,
+figcaption,
+q,
+blockquote {
     font-family: 'Inconsolata', monospace, verdana;
     color: grey;
     font-size: 16px;
     color: black;
-   }
+}
+
 /*interlineado*/
 p {
-   line-height: 1.2; 
+    line-height: 1.2;
 }
 
 /*colores específicos*/
-h2,strong {
-      color:navy;
+h2,
+strong {
+    color: navy;
 }
+
 a {
     font-weight: normal;
-    color:darkgrey;
+    color: darkgrey;
 }
+
 figcaption {
     font-size: small;
     font-style: italic;
 }
 
 
- /*Estilos para las notas*/
+/*Estilos para las notas*/
 
-p.nota{
+p.nota {
     padding: 1em;
-    background-color:lightblue;
-    border-left: 0,25em solid black;
+    background-color: lightblue;
+    border-left: 0, 25em solid black;
     border-radius: 5px;
 }
 
- .agua:before {
-  position: fixed;
-  content: '';
-  bottom: 2vh;
-  right: 5vh;
+.agua:before {
+    position: fixed;
+    content: '';
+    bottom: 2vh;
+    right: 5vh;
 
-  width: 56.77vh;
-  height: 20vh;
-  opacity: 0.2;
-  background-image: url("../svg/w3c/css.svg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat; }
+    width: 56.77vh;
+    height: 20vh;
+    opacity: 0.2;
+    background-image: url("../svg/w3c/css.svg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
- /* Imagen banner de portada */
+/* Imagen banner de portada */
 header.portada {
     width: 100%;
     height: 50vh;
@@ -91,6 +126,7 @@ header.portada {
 }
 
 /* Título centrado dentro de la imagen */
+
 header.portada {
     position: relative;
 }
@@ -103,48 +139,68 @@ header.portada h2 {
     margin: 0;
     padding: 1em 0;
     text-align: center;
-    background-color: rgba(0,0,0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     color: #ffffff;
 }
 
-  width: 100%;
-  height: 50vh;
-  opacity: 0.2;
-  background-image: url("../img/bannner.svg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat; }
+width: 100%;
+height: 50vh;
+opacity: 0.2;
+background-image: url("../img/bannner.svg");
+background-position: 50% 50%;
+background-size: cover;
+background-repeat: no-repeat;
+}
 
 /*reglas comunes logos de abajo */
 
 figure.w3c.css {
-    background-image: url("../svg/w3c/css.svg")
+    background-image: url("../svg/w3c/css.svg");
 }
 
 figure.w3c.wcag {
-    background-image: url("../svg/w3c/wcag.svg")
+    background-image: url("../svg/w3c/wcag.svg");
 }
 
 figure.w3c.html5 {
-    background-image: url("../svg/w3c/html5.svg")
+    background-image: url("../svg/w3c/html5.svg");
 
 }
-     
+
 figure.w3c {
-width: 88px
-height: 31px
-background-position: center center;
-background-size: cover;
-background-repeat: no-repeat; }
+    width: 88px;
+    height: 31px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+article.position {
+    position.relative
+}
+
+figure.caja {
+    width: 500px;
+    height: 300px;
+    background: yellow;
+    background-image: url('https://cdn.pixabay.com/photo/2022/01/18/16/49/town-6947538_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%
+}
+
+article.imagen {
+    width: 500px;
+    height: 300px;
+    background: blue;
+    background-image: url('https://cdn.pixabay.com/photo/2022/01/18/16/49/town-6947538_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50% 
+        
+}
 
 
 footer {
-    background-color:aliceblue;
+    background-color: aliceblue;
 }
-
-
-
-
-
-
-
