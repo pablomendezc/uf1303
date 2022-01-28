@@ -239,16 +239,30 @@ article.imagen {
         font-size: small
             
     }
-    li.w3c figure {
+   /* reducir icons validadores */
+    
+    figure.w3c{
+        width: 5vw;
+        height: 1,76vw;
         margin: 0.5em;
     }
+    
+    li.legal {
+        margin: 0.5em;
+    }
+    
+    li.legal
+    li.legal a{
+        height: 2em;
+        line-height: 2vw;
+    }
+    
     
     body > footer h2,
     body > footer li a,
     body > footer li a span {
        color: white; 
     }
-
 
     footer section.footer_pie h2 {
     display: none;
