@@ -90,7 +90,6 @@ figcaption {
     font-style: italic;
 }
 
-
 /*Estilos para las notas*/
 
 p.nota {
@@ -166,7 +165,6 @@ figure.w3c.wcag {
 
 figure.w3c.html5 {
     background-image: url("../svg/w3c/html5.svg");
-
 }
 
 figure.w3c {
@@ -185,13 +183,13 @@ figure.caja {
     width: 500px;
     height: 300px;
     background: yellow;
-    background-image: url('https://cdn.pixabay.com/photo/2022/01/18/16/49/town-6947538_960_720.jpg');
+    background-image: url("https://cdn.pixabay.com/photo/2022/01/18/16/49/town-6947538_960_720.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
-article.imagen {
+    article.imagen {
     width: 500px;
     height: 300px;
     background: blue;
@@ -203,9 +201,6 @@ article.imagen {
     article.image {
         font-weight: 600;
     }
-
-
-
     article.imagen:before {
         position: absolute;
         content: "";
@@ -225,10 +220,15 @@ article.imagen {
         position: relative;
         text-align: center;
         color: white;
-
     }
-
 
     footer {
-        background-color: aliceblue;
+        background-color: black;
+        
     }
+    
+    footer h2, li, a {
+      
+    background-color:lime;
+    
+}
