@@ -226,6 +226,10 @@ article.imagen {
 /*fondo color negro*/
     body > footer {
         background-color: black;
+        padding-right:
+        padding-left:
+        padding-top:
+        padding-bottom:
     }
     
 
@@ -245,6 +249,7 @@ article.imagen {
         width: 5vw;
         height: 1,76vw;
         margin: 0.5em;
+        
     }
     
     li.legal {
@@ -252,7 +257,7 @@ article.imagen {
     }
     
     li.legal
-    li.legal a{
+    li.legal a {
         height: 2em;
         line-height: 2vw;
     }
