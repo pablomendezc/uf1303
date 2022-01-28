@@ -189,6 +189,18 @@ figure.caja {
     background-position: center center;
 }
 
+section.conteninfo a.pattern figure {
+    width: 20vw ;
+    height: 14vw ;
+    background-image: url("../svg/logo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    }
+
+
+
+
 article.imagen {
     width: 500px;
     height: 300px;
@@ -226,8 +238,8 @@ article.imagen {
 /*fondo color negro*/
     body > footer {
         background-color: black;
-        padding-right:
-        padding-left:
+        padding-right: 7.5vw;
+        padding-left: 7.5vw;
         padding-top:
         padding-bottom:
     }
