@@ -189,7 +189,7 @@ figure.caja {
     background-position: center center;
 }
 
-    article.imagen {
+article.imagen {
     width: 500px;
     height: 300px;
     background: blue;
@@ -201,14 +201,16 @@ figure.caja {
     article.image {
         font-weight: 600;
     }
-    article.imagen:before {
+
+    article.image:before {
         position: absolute;
         content: "";
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        background-image;url('https://cdn.pixabay.com/photo/2022/01/18/16/49/town-6947538_960_720.jpg');
+        background-image;
+        url('https://cdn.pixabay.com/photo/2022/01/18/16/49/town-6947538_960_720.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         opacity: 0.5;
@@ -216,19 +218,38 @@ figure.caja {
     }
 
     article.imagen h2,
-    article. imagen p {
+    article.imagen p {
         position: relative;
         text-align: center;
         color: white;
     }
-
-    footer {
+/*fondo color negro*/
+    body > footer {
         background-color: black;
-        
     }
     
-    footer h2, li, a {
-      
-    background-color:lime;
+
+    body > footer li {
+        list-style: none;
+    }
+
+    body > footer  li.validator;
+    body > footer li. legal {
+        display: inline-block;
+        font-size: small
+            
+    }
+    li.w3c figure {
+        margin: 0.5em;
+    }
     
+    body > footer h2,
+    body > footer li a,
+    body > footer li a span {
+       color: white; 
+    }
+
+
+    footer section.footer_pie h2 {
+    display: none;
 }
