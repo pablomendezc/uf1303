@@ -213,8 +213,7 @@ article.imagen {
         left: 0;
         width: 100%;
         height: 100%;
-        background-image;
-        url('https://cdn.pixabay.com/photo/2022/01/18/16/49/town-6947538_960_720.jpg');
+        background-image;url('https://cdn.pixabay.com/photo/2022/01/18/16/49/town-6947538_960_720.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         opacity: 0.5;
